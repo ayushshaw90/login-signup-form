@@ -52,6 +52,7 @@
 }
 #choice > button:hover , .submit-btn:hover {
     background-color: rgb(33, 83, 136);
+    cursor: pointer;
 }
 .pad5{
     padding: 9px;
