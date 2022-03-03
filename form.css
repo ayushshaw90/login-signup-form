@@ -1,17 +1,3 @@
-#choice > button , .submit-btn{
-    margin: 3px;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    font-weight: bold;
-    border-width: 0;
-    border-top-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: rgb(43,108,176);
-}
 #choice{
     margin: auto;
     width:max-content;
@@ -23,7 +9,7 @@
     padding-bottom: 20px;
 }
 .form > form > label{
-    color:rgb(95, 95, 95);
+    color:rgb(28, 29, 80);
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
     margin:3px;
@@ -32,7 +18,7 @@
     margin-left: 3px;
     margin-bottom: 16px;
     margin-top: 4px;
-    font-size: 18px;
+    font-size: 15px;
 }
 .form{
     display: none;
@@ -49,4 +35,25 @@
     outline: none;
     border-color: #9ecaed;
     box-shadow: 0 0 10px #9ecaed;
+}
+#choice > button , .submit-btn{
+    margin: 3px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    border-width: 0;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(43,108,176);
+}
+#choice > button:hover , .submit-btn:hover {
+    background-color: rgb(33, 83, 136);
+}
+.pad5{
+    padding: 9px;
+    color:rgb(104, 102, 102);
 }
