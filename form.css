@@ -23,6 +23,7 @@
     padding-bottom: 20px;
 }
 .form > form > label{
+    color:rgb(95, 95, 95);
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
     margin:3px;
@@ -38,4 +39,14 @@
 }
 #fname, #lname, #email, #emaill, #password, #passwordl{
     width:100%;
+}
+.glowing-border {
+    border: 2px solid #dadada;
+    border-radius: 7px;
+}
+
+.glowing-border:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
 }
