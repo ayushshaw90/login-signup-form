@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-HTML</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div id="choice">
+        <button onclick="loginDisplay()">Login</button>
+        <button onclick="signupDisplay()">Sign Up</button>
+    </div>
+    <div id="signup" class ="form">
+        <form>
+            <label for="fname">First Name</label>
+            <br>
+            <input type="text" id="fname" name="fname">
+            <br>
+            <label for="lname">Last Name</label>
+            <br>
+            <input type="text" id="lname" name="lname">
+            <br>
+            <label>Gender</label>
+            <br>
+            <label for="male">Male </label>
+            <input type="radio" name="gender" id="male" value="Male">
+
+            <label for="female">Female </label>
+            <input type="radio" name="gender" id="female" value="Female">
+            <br>
+            <label for="email">Email Id</label>
+            <br>
+            <input type="email" name="email" id="email">
+            <br>
+            <label for="password">Password</label>
+            <br>
+            <input type="password" name="password" id="password">
+            <br>
+            <input type="submit" value="Sign Up" class="submit-btn">
+            <br>
+        </form>
+    </div>
+
+    <div id="login" class="form">
+        <form>
+            <label for="emaill">Email ID: </label>
+            <br>
+            <input type="email" name="email" id="emaill">
+            <br>
+            <label for="passwordl">Password</label>
+            <br>
+            <input type="password" name="password" id="passwordl">
+            <br>
+            <input type="submit" value="Login" class="submit-btn">
+        </form>
+    </div>
+    <script>
+        sgnup=document.getElementById("signup");
+        lgin=document.getElementById("login");
+    function loginDisplay(){
+        sgnup.style.display="none";
+        lgin.style.display="block";
+    }
+    function signupDisplay(){
+        lgin.style.display="none";
+        sgnup.style.display="block";
+    }
+    </script>
+</body>
+
+</html>
